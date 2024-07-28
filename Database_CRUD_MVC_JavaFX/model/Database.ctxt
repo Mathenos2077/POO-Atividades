@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Database
+comment0.text=\r\n\ \ Database\ Class\r\n\ \r\n\ @author\ Matheus\ TP\r\n
+comment1.params=databaseName
+comment1.target=Database(java.lang.String)
+comment2.params=
+comment2.target=com.j256.ormlite.jdbc.JdbcConnectionSource\ getConnection()
+comment2.text=\r\n\ Abre\ a\ conex\u00E3o\ com\ o\ banco\ de\ dados\r\n\ \r\n\ @return\r\n
+comment3.params=
+comment3.target=void\ close()
+comment3.text=\r\n\ \ Encerra\ a\ conex\u00E3o\ do\ banco\ de\ dados\r\n
+numComments=4
