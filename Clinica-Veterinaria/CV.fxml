@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" cache="true" contentDisplay="CENTER" layoutX="2.0" layoutY="-1.0" prefHeight="44.0" prefWidth="600.0" text="Clínica Veterinária - Serviços" textAlignment="CENTER" underline="true">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="284.0" text="Total:   R$ ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="total" layoutX="122.0" layoutY="283.0" prefHeight="27.0" prefWidth="131.0" text="0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="preco_banho" layoutX="209.0" layoutY="62.0" prefHeight="20.0" prefWidth="139.0" text="40,00">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="preco_tosagem" layoutX="226.0" layoutY="85.0" prefHeight="20.0" prefWidth="139.0" text="30,00">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="preco_banhoetosagem" layoutX="286.0" layoutY="109.0" prefHeight="20.0" prefWidth="139.0" text="60,00">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="preco_vacinacao" layoutX="233.0" layoutY="135.0" prefHeight="20.0" prefWidth="139.0" text="50,00">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="preco_cicurgia" layoutX="216.0" layoutY="162.0" prefHeight="20.0" prefWidth="139.0" text="400,00">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="preco_parto" layoutX="200.0" layoutY="188.0" prefHeight="20.0" prefWidth="139.0" text="200,00">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="preco_fisioterapia" layoutX="240.0" layoutY="213.0" prefHeight="20.0" prefWidth="139.0" text="120,00">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="preco_castracao" layoutX="231.0" layoutY="240.0" prefHeight="20.0" prefWidth="139.0" text="400,00">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="62.0" text="Banho - R$">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="85.0" text="Tosagem - R$">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="109.0" text="Banho e Tosagem - R$ ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="135.0" text="Vacinação - R$ ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="162.0" text="Cirurgia - R$ ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="188.0" text="Parto - R$ ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="213.0" text="Fisioterapia - R$ ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="240.0" text="Castração - R$ ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="93.0" layoutY="64.0" mnemonicParsing="false" onAction="#click_mais_banho" prefHeight="20.0" prefWidth="0.0" text="+">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="mais_tosagem" layoutX="93.0" layoutY="87.0" mnemonicParsing="false" onAction="#click_mais_tosagem" prefHeight="20.0" prefWidth="0.0" text="+">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="mais_banhoetosagem" layoutX="93.0" layoutY="111.0" mnemonicParsing="false" onAction="#click_mais_banhoetosagem" prefHeight="20.0" prefWidth="0.0" text="+">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="mais_vacinacao" layoutX="93.0" layoutY="137.0" mnemonicParsing="false" onAction="#click_mais_vacinacao" prefHeight="20.0" prefWidth="0.0" text="+">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="mais_cirurgia" layoutX="93.0" layoutY="164.0" mnemonicParsing="false" onAction="#click_mais_cirurgia" prefHeight="20.0" prefWidth="0.0" text="+">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="mais_parto" layoutX="93.0" layoutY="190.0" mnemonicParsing="false" onAction="#click_mais_parto" prefHeight="20.0" prefWidth="0.0" text="+">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="mais_fisioterapia" layoutX="93.0" layoutY="215.0" mnemonicParsing="false" onAction="#click_mais_fisioterapia" prefHeight="20.0" prefWidth="0.0" text="+">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="mais_castracao" layoutX="93.0" layoutY="242.0" mnemonicParsing="false" onAction="#click_mais_castracao" prefHeight="20.0" prefWidth="0.0" text="+">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Label fx:id="quantia_banho" layoutX="72.0" layoutY="62.0" prefHeight="21.0" prefWidth="21.0" text="0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="menos_banho" layoutX="51.0" layoutY="64.0" mnemonicParsing="false" onAction="#click_menos_banho" prefHeight="20.0" prefWidth="0.0" text="-">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="menos_tosagem" layoutX="51.0" layoutY="87.0" mnemonicParsing="false" onAction="#click_menos_tosagem" prefHeight="20.0" prefWidth="0.0" text="-">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="menos_banhoetosagem" layoutX="51.0" layoutY="111.0" mnemonicParsing="false" onAction="#click_menos_banhoetosagem" prefHeight="20.0" prefWidth="0.0" text="-">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="menos_vacinacao" layoutX="51.0" layoutY="137.0" mnemonicParsing="false" onAction="#click_menos_vacinacao" prefHeight="20.0" prefWidth="0.0" text="-">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="menos_cirurgia" layoutX="51.0" layoutY="164.0" mnemonicParsing="false" onAction="#click_menos_cirurgia" prefHeight="20.0" prefWidth="0.0" text="-">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="menos_parto" layoutX="51.0" layoutY="190.0" mnemonicParsing="false" onAction="#click_menos_parto" prefHeight="20.0" prefWidth="0.0" text="-">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="menos_fisioterapia" layoutX="51.0" layoutY="215.0" mnemonicParsing="false" onAction="#click_menos_fisioterapia" prefHeight="20.0" prefWidth="0.0" text="-">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="menos_castracao" layoutX="51.0" layoutY="242.0" mnemonicParsing="false" onAction="#click_menos_castracao" prefHeight="20.0" prefWidth="0.0" text="-">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Label fx:id="quantia_tosagem" layoutX="72.0" layoutY="85.0" prefHeight="21.0" prefWidth="21.0" text="0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="quantia_banhoetosagem" layoutX="72.0" layoutY="109.0" prefHeight="21.0" prefWidth="21.0" text="0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="quantia_vacinacao" layoutX="72.0" layoutY="135.0" prefHeight="21.0" prefWidth="21.0" text="0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="quantia_cirurgia" layoutX="72.0" layoutY="162.0" prefHeight="21.0" prefWidth="21.0" text="0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="quantia_parto" layoutX="72.0" layoutY="188.0" prefHeight="21.0" prefWidth="21.0" text="0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="quantia_fisioterapia" layoutX="72.0" layoutY="213.0" prefHeight="21.0" prefWidth="21.0" text="0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="quantia_castracao" layoutX="72.0" layoutY="240.0" prefHeight="21.0" prefWidth="21.0" text="0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_contratar" layoutX="47.0" layoutY="311.0" mnemonicParsing="false" onAction="#click_contratar" text="Contratar Serviços">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label fx:id="labelMensagem" layoutX="46.0" layoutY="356.0" text="Selecione os serviços desejados">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

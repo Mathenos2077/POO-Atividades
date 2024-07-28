@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=DetView
+comment0.text=\r\n\ Interface\ Gr\u00E1fica\ (GUI)\ da\ Calculadora\ de\ Determinante\r\n\ \r\n\ @author\ Matheus\ Teixeira\ Pires\r\n\ @version\ 0.1\r\n
+comment1.params=
+comment1.target=DetView()
+comment2.params=controller
+comment2.target=void\ setController(DetController)
+comment3.params=primaryStage
+comment3.target=void\ start(javafx.stage.Stage)
+numComments=4

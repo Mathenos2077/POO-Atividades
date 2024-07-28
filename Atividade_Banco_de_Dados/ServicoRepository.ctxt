@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ServicoRepository
+comment1.params=database
+comment1.target=ServicoRepository(Database)
+comment2.params=database
+comment2.target=void\ setDatabase(Database)
+comment3.params=servico
+comment3.target=Servico\ create(Servico)
+comment4.params=servico
+comment4.target=void\ update(Servico)
+comment5.params=servico
+comment5.target=void\ delete(Servico)
+comment6.params=id
+comment6.target=void\ deleteById(int)
+comment7.params=id
+comment7.target=Servico\ loadFromId(int)
+comment8.params=
+comment8.target=java.util.List\ loadAll()
+numComments=9

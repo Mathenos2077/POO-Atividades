@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label contentDisplay="CENTER" layoutX="115.0" layoutY="21.0" lineSpacing="1.0" prefHeight="48.0" prefWidth="370.0" text="Calculadora Determinante 3x3" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="30.0" />
+         </font>
+      </Label>
+      <Button id="buttonCalcular" layoutX="197.0" layoutY="244.0" mnemonicParsing="false" onAction="#botaoCalcularClicado" prefHeight="39.0" prefWidth="89.0" text="Calcular">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Button>
+      <Button id="buttonLimpar" layoutX="316.0" layoutY="244.0" mnemonicParsing="false" onAction="#botaoLimparClicado" prefHeight="39.0" prefWidth="89.0" text="Limpar">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="70.0" layoutY="340.0" text="Resultado:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label id="labelResultado" fx:id="resultado" layoutX="161.0" layoutY="340.0" prefHeight="27.0" prefWidth="426.0" text="0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="a11" alignment="CENTER" layoutX="180.0" layoutY="93.0" prefHeight="27.0" prefWidth="70.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="a12" alignment="CENTER" layoutX="265.0" layoutY="93.0" prefHeight="27.0" prefWidth="70.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="a13" alignment="CENTER" layoutX="351.0" layoutY="93.0" prefHeight="27.0" prefWidth="70.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="a21" alignment="CENTER" layoutX="180.0" layoutY="138.0" prefHeight="27.0" prefWidth="70.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="a22" alignment="CENTER" layoutX="265.0" layoutY="138.0" prefHeight="27.0" prefWidth="70.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="a23" alignment="CENTER" layoutX="351.0" layoutY="138.0" prefHeight="27.0" prefWidth="70.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="a31" alignment="CENTER" layoutX="180.0" layoutY="182.0" prefHeight="27.0" prefWidth="70.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="a32" alignment="CENTER" layoutX="265.0" layoutY="182.0" prefHeight="27.0" prefWidth="70.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="a33" alignment="CENTER" layoutX="351.0" layoutY="182.0" prefHeight="27.0" prefWidth="70.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+   </children>
+</Pane>
