@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Terrestre
+comment1.params=
+comment1.target=java.lang.Integer\ getNumRodas()
+comment2.params=
+comment2.target=void\ acelerar()
+comment3.params=
+comment3.target=void\ frear()
+numComments=4

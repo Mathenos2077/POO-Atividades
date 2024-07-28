@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Carro
+comment1.params=capacidade\ velocidade\ cor\ placa\ marcha
+comment1.target=Carro(java.lang.Integer,\ java.lang.Integer,\ java.lang.String,\ java.lang.String,\ java.lang.Integer)
+comment2.params=
+comment2.target=java.lang.Integer\ getNumRodas()
+comment3.params=
+comment3.target=java.lang.String\ getCor()
+comment4.params=
+comment4.target=java.lang.String\ getPlaca()
+comment5.params=
+comment5.target=java.lang.Integer\ getMarcha()
+comment6.params=marcha
+comment6.target=void\ trocarMarcha(java.lang.Integer)
+comment7.params=placa
+comment7.target=void\ emplacar(java.lang.String)
+numComments=8

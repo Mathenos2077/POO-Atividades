@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Quadrado
+comment1.params=lado
+comment1.target=Quadrado(double)
+comment2.params=
+comment2.target=java.lang.String\ getNome()
+comment3.params=
+comment3.target=double\ getArea()
+comment4.params=
+comment4.target=double\ getPerimetro()
+comment5.params=
+comment5.target=double\ getLado()
+numComments=6
